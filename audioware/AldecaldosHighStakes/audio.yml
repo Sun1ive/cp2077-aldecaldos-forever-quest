@@ -1,0 +1,26 @@
+version: 1.0.0
+voices:
+  aldo_intro:
+    en-us:
+      fem: ./intro_f.wav
+      male: ./intro_m.wav
+  mitch_drone:
+    en-us:
+      fem: ./mitch_drone_f.wav
+      male: ./mitch_drone_m.wav
+  cas_truck:
+    en-us:
+      fem: ./cas_truck_f.wav
+      male: ./cas_truck_m.wav
+  they_coming:
+    en-us:
+      fem: ./coming_f.wav
+      male: ./coming_m.wav
+  teddy_now:
+    en-us:
+      fem: ./teddy_f.wav
+      male: ./teddy_m.wav
+  regina_brief:
+    en-us:
+      fem: ./regina_brief.wav
+      male: ./regina_brief.wav

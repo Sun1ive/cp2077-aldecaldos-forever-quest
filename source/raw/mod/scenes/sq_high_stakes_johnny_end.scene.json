@@ -1,0 +1,2970 @@
+{
+  "Header": {
+    "WolvenKitVersion": "8.15.1-nightly.2024-11-23",
+    "WKitJsonVersion": "0.0.9",
+    "GameVersion": 2120,
+    "ExportedDateTime": "2024-11-24T13:38:46.2581306Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "G:\\work\\CPModding\\wolvenkit\\projects\\Aldecaldos Forever\\source\\archive\\mod\\scenes\\sq_high_stakes_johnny_end.scene"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
+      "$type": "scnSceneResource",
+      "actors": [
+        {
+          "$type": "scnActorDef",
+          "acquisitionPlan": "spawnDespawn",
+          "actorId": {
+            "$type": "scnActorId",
+            "id": 0
+          },
+          "actorName": "sq_johnny_actor",
+          "animSets": [],
+          "bodyCinematicAnimSets": [],
+          "communityParams": {
+            "$type": "scnCommunityParams",
+            "entryName": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "None"
+            },
+            "forceMaxVisibility": 0,
+            "reference": {
+              "$type": "NodeRef",
+              "$storage": "uint64",
+              "$value": "0"
+            }
+          },
+          "cyberwareAnimSets": [],
+          "cyberwareCinematicAnimSets": [],
+          "deformationAnimSets": [],
+          "dynamicAnimSets": [],
+          "facialAnimSets": [],
+          "facialCinematicAnimSets": [],
+          "findActorInContextParams": {
+            "$type": "scnFindEntityInContextParams",
+            "contextActorName": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "None"
+            },
+            "contextualName": "Player",
+            "forceMaxVisibility": 0,
+            "specRecordId": {
+              "$type": "TweakDBID",
+              "$storage": "uint64",
+              "$value": "0"
+            },
+            "voiceVagId": {
+              "$type": "scnVoicetagId",
+              "id": "0"
+            }
+          },
+          "findActorInWorldParams": {
+            "$type": "scnFindEntityInWorldParams",
+            "actorRef": {
+              "$type": "gameEntityReference",
+              "dynamicEntityUniqueName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "None"
+              },
+              "names": [],
+              "reference": {
+                "$type": "NodeRef",
+                "$storage": "uint64",
+                "$value": "0"
+              },
+              "sceneActorContextName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "None"
+              },
+              "slotName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "None"
+              },
+              "type": "EntityRef"
+            },
+            "forceMaxVisibility": 0
+          },
+          "holocallInitScn": {
+            "DepotPath": {
+              "$type": "ResourcePath",
+              "$storage": "uint64",
+              "$value": "0"
+            },
+            "Flags": "Soft"
+          },
+          "lipsyncAnimSet": {
+            "$type": "scnLipsyncAnimSetSRRefId",
+            "id": 4294967295
+          },
+          "spawnDespawnParams": {
+            "$type": "scnSpawnDespawnEntityParams",
+            "alwaysSpawned": 1,
+            "appearance": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "defeault_silverhand"
+            },
+            "dynamicEntityUniqueName": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "sq_johnny"
+            },
+            "findInWorld": 0,
+            "forceMaxVisibility": 1,
+            "isEnabled": 1,
+            "itemOwnerId": {
+              "$type": "scnPerformerId",
+              "id": 4294967040
+            },
+            "keepAlive": 0,
+            "prefetchAppearance": 0,
+            "spawnMarker": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "None"
+            },
+            "spawnMarkerNodeRef": {
+              "$type": "NodeRef",
+              "$storage": "uint64",
+              "$value": "0"
+            },
+            "spawnMarkerType": "Local",
+            "spawnOffset": {
+              "$type": "Transform",
+              "orientation": {
+                "$type": "Quaternion",
+                "i": 0,
+                "j": 0,
+                "k": 0,
+                "r": 1
+              },
+              "position": {
+                "$type": "Vector4",
+                "W": 0,
+                "X": 1,
+                "Y": 1,
+                "Z": 0
+              }
+            },
+            "spawnOnStart": 1,
+            "specRecordId": {
+              "$type": "TweakDBID",
+              "$storage": "string",
+              "$value": "Character.Silverhand"
+            },
+            "validateSpawnPostion": 1
+          },
+          "spawnerParams": {
+            "$type": "scnSpawnerParams",
+            "forceMaxVisibility": 0,
+            "reference": {
+              "$type": "NodeRef",
+              "$storage": "uint64",
+              "$value": "0"
+            }
+          },
+          "spawnSetParams": {
+            "$type": "scnSpawnSetParams",
+            "entryName": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "None"
+            },
+            "forceMaxVisibility": 0,
+            "reference": {
+              "$type": "NodeRef",
+              "$storage": "uint64",
+              "$value": "0"
+            }
+          },
+          "specAppearance": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "default"
+          },
+          "specCharacterRecordId": {
+            "$type": "TweakDBID",
+            "$storage": "string",
+            "$value": "Character.Silverhand"
+          },
+          "voicetagId": {
+            "$type": "scnVoicetagId",
+            "id": "0"
+          }
+        }
+      ],
+      "cookingPlatform": "PLATFORM_PC",
+      "debugSymbols": {
+        "$type": "scnDebugSymbols",
+        "performersDebugSymbols": [
+          {
+            "$type": "scnPerformerSymbol",
+            "editorPerformerId": "358304871694532060",
+            "entityRef": {
+              "$type": "gameEntityReference",
+              "dynamicEntityUniqueName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "sq_johnny"
+              },
+              "names": [],
+              "reference": {
+                "$type": "NodeRef",
+                "$storage": "uint64",
+                "$value": "0"
+              },
+              "sceneActorContextName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "None"
+              },
+              "slotName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "None"
+              },
+              "type": "EntityRef"
+            },
+            "performerId": {
+              "$type": "scnPerformerId",
+              "id": 1
+            }
+          },
+          {
+            "$type": "scnPerformerSymbol",
+            "editorPerformerId": "1797605160371019920",
+            "entityRef": {
+              "$type": "gameEntityReference",
+              "dynamicEntityUniqueName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "None"
+              },
+              "names": [],
+              "reference": {
+                "$type": "NodeRef",
+                "$storage": "string",
+                "$value": "#player"
+              },
+              "sceneActorContextName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "None"
+              },
+              "slotName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "None"
+              },
+              "type": "EntityRef"
+            },
+            "performerId": {
+              "$type": "scnPerformerId",
+              "id": 257
+            }
+          }
+        ],
+        "sceneEventsDebugSymbols": [],
+        "sceneNodesDebugSymbols": [],
+        "workspotsDebugSymbols": []
+      },
+      "effectDefinitions": [],
+      "effectInstances": [],
+      "entryPoints": [
+        {
+          "$type": "scnEntryPoint",
+          "name": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "start_success"
+          },
+          "nodeId": {
+            "$type": "scnNodeId",
+            "id": 1
+          }
+        }
+      ],
+      "executionTagEntries": [],
+      "executionTags": [],
+      "exitPoints": [
+        {
+          "$type": "scnExitPoint",
+          "name": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "success_end"
+          },
+          "nodeId": {
+            "$type": "scnNodeId",
+            "id": 9
+          }
+        }
+      ],
+      "interruptionScenarios": [
+        {
+          "$type": "scnInterruptionScenario",
+          "enabled": 1,
+          "forcePlayReturnLine": 0,
+          "id": {
+            "$type": "scnInterruptionScenarioId",
+            "id": 0
+          },
+          "interruptConditions": [
+            {
+              "HandleId": "0",
+              "Data": {
+                "$type": "scnCheckSpeakersDistanceInterruptCondition",
+                "params": {
+                  "$type": "scnCheckSpeakersDistanceInterruptConditionParams",
+                  "comparisonType": "Greater",
+                  "distance": 6
+                }
+              }
+            }
+          ],
+          "interruptionSpammingSafeguard": 0,
+          "name": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "Default"
+          },
+          "playingLinesBehavior": "Default",
+          "playInterruptLine": 1,
+          "postInterruptSignalFactCondition": null,
+          "postInterruptSignalTimeDelay": 0,
+          "postReturnSignalFactCondition": null,
+          "postReturnSignalTimeDelay": 0,
+          "queueName": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "None"
+          },
+          "returnConditions": [
+            {
+              "HandleId": "1",
+              "Data": {
+                "$type": "scnCheckSpeakersDistanceReturnCondition",
+                "params": {
+                  "$type": "scnCheckSpeakersDistanceReturnConditionParams",
+                  "comparisonType": "Less",
+                  "distance": 5
+                }
+              }
+            }
+          ],
+          "talkOnReturn": 0
+        }
+      ],
+      "localMarkers": [],
+      "locStore": {
+        "$type": "scnlocLocStoreEmbedded",
+        "vdEntries": [],
+        "vpEntries": []
+      },
+      "notablePoints": [
+        {
+          "$type": "scnNotablePoint",
+          "name": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "None"
+          },
+          "nodeId": {
+            "$type": "scnNodeId",
+            "id": 7
+          }
+        }
+      ],
+      "playerActors": [
+        {
+          "$type": "scnPlayerActorDef",
+          "acquisitionPlan": "findInContext",
+          "actorId": {
+            "$type": "scnActorId",
+            "id": 1
+          },
+          "animSets": [],
+          "bodyCinematicAnimSets": [
+            {
+              "$type": "scnCinematicAnimSetSRRefId",
+              "id": 0
+            },
+            {
+              "$type": "scnCinematicAnimSetSRRefId",
+              "id": 1
+            },
+            {
+              "$type": "scnCinematicAnimSetSRRefId",
+              "id": 2
+            },
+            {
+              "$type": "scnCinematicAnimSetSRRefId",
+              "id": 3
+            },
+            {
+              "$type": "scnCinematicAnimSetSRRefId",
+              "id": 4
+            }
+          ],
+          "cyberwareAnimSets": [],
+          "cyberwareCinematicAnimSets": [],
+          "deformationAnimSets": [],
+          "dynamicAnimSets": [],
+          "facialAnimSets": [],
+          "facialCinematicAnimSets": [],
+          "findActorInContextParams": {
+            "$type": "scnFindEntityInContextParams",
+            "contextActorName": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "None"
+            },
+            "contextualName": "Player",
+            "forceMaxVisibility": 0,
+            "specRecordId": {
+              "$type": "TweakDBID",
+              "$storage": "string",
+              "$value": "Character.Player_Puppet_Base"
+            },
+            "voiceVagId": {
+              "$type": "scnVoicetagId",
+              "id": "0"
+            }
+          },
+          "findNetworkPlayerParams": {
+            "$type": "scnFindNetworkPlayerParams",
+            "networkId": 0
+          },
+          "lipsyncAnimSet": {
+            "$type": "scnLipsyncAnimSetSRRefId",
+            "id": 4294967295
+          },
+          "playerName": "Player",
+          "specAppearance": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "default"
+          },
+          "specCharacterRecordId": {
+            "$type": "TweakDBID",
+            "$storage": "string",
+            "$value": "Character.Player_Puppet_Base"
+          },
+          "specTemplate": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "(None)"
+          },
+          "voicetagId": {
+            "$type": "scnVoicetagId",
+            "id": "1103967280742240864"
+          }
+        }
+      ],
+      "props": [],
+      "referencePoints": [],
+      "resouresReferences": {
+        "$type": "scnSRRefCollection",
+        "cinematicAnimNames": [
+          {
+            "$type": "scnAnimSetAnimNames",
+            "animationNames": [
+              {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "sit_bench_lean180__rh_on_backrest__01"
+              }
+            ]
+          },
+          {
+            "$type": "scnAnimSetAnimNames",
+            "animationNames": [
+              {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "sit_bench_lean180__rh_on_backrest__01__to__stand__2h_on_sides__01__turn0__01"
+              },
+              {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "stand__2h_on_sides__01__to__sit_bench_lean180__rh_on_backrest__01__turn180__01"
+              }
+            ]
+          },
+          {
+            "$type": "scnAnimSetAnimNames",
+            "animationNames": [
+              {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "sit_bench_lean180__rh_on_backrest__01"
+              }
+            ]
+          },
+          {
+            "$type": "scnAnimSetAnimNames",
+            "animationNames": [
+              {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "sit_bench_lean180__rh_on_backrest__01__to__stand__2h_on_sides__01__turn0__01"
+              },
+              {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "stand__2h_on_sides__01__to__sit_bench_lean180__rh_on_backrest__01__turn180__01"
+              }
+            ]
+          },
+          {
+            "$type": "scnAnimSetAnimNames",
+            "animationNames": [
+              {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "sit_chair_lean180__2h_on_lap__01__put_on_braindance__02"
+              },
+              {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "sit_chair_lean0__lh_on_knee__02__take_off_braindance__01"
+              }
+            ]
+          }
+        ],
+        "cinematicAnimSets": [
+          {
+            "$type": "scnCinematicAnimSetSRRef",
+            "asyncAnimSet": {
+              "DepotPath": {
+                "$type": "ResourcePath",
+                "$storage": "string",
+                "$value": "base\\animations\\player\\interactive_scene\\player_female__transitions.anims"
+              },
+              "Flags": "Soft"
+            },
+            "isOverride": 1,
+            "priority": 100
+          },
+          {
+            "$type": "scnCinematicAnimSetSRRef",
+            "asyncAnimSet": {
+              "DepotPath": {
+                "$type": "ResourcePath",
+                "$storage": "string",
+                "$value": "base\\animations\\player\\interactive_scene\\player_female__sit_bench_lean180__rh_on_backrest__01.anims"
+              },
+              "Flags": "Soft"
+            },
+            "isOverride": 1,
+            "priority": 100
+          },
+          {
+            "$type": "scnCinematicAnimSetSRRef",
+            "asyncAnimSet": {
+              "DepotPath": {
+                "$type": "ResourcePath",
+                "$storage": "string",
+                "$value": "base\\animations\\player\\interactive_scene\\player_male__transitions.anims"
+              },
+              "Flags": "Soft"
+            },
+            "isOverride": 0,
+            "priority": 200
+          },
+          {
+            "$type": "scnCinematicAnimSetSRRef",
+            "asyncAnimSet": {
+              "DepotPath": {
+                "$type": "ResourcePath",
+                "$storage": "string",
+                "$value": "base\\animations\\player\\interactive_scene\\player_male__sit_bench_lean180__rh_on_backrest__01.anims"
+              },
+              "Flags": "Soft"
+            },
+            "isOverride": 0,
+            "priority": 128
+          },
+          {
+            "$type": "scnCinematicAnimSetSRRef",
+            "asyncAnimSet": {
+              "DepotPath": {
+                "$type": "ResourcePath",
+                "$storage": "string",
+                "$value": "base\\animations\\quest\\main_quests\\part1\\q105\\q105_11_judys_evelyn\\q105_11__player__sit_braindance__01.anims"
+              },
+              "Flags": "Default"
+            },
+            "isOverride": 0,
+            "priority": 128
+          }
+        ],
+        "dynamicAnimNames": [],
+        "dynamicAnimSets": [],
+        "gameplayAnimNames": [
+          {
+            "$type": "scnAnimSetAnimNames",
+            "animationNames": [
+              {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "melee_slide_end"
+              }
+            ]
+          },
+          {
+            "$type": "scnAnimSetAnimNames",
+            "animationNames": [
+              {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "fpp_idle_stand"
+              }
+            ]
+          },
+          {
+            "$type": "scnAnimSetAnimNames",
+            "animationNames": [
+              {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "melee_slide_end"
+              }
+            ]
+          },
+          {
+            "$type": "scnAnimSetAnimNames",
+            "animationNames": [
+              {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "fpp_idle_stand"
+              }
+            ]
+          }
+        ],
+        "gameplayAnimSets": [
+          {
+            "$type": "scnGameplayAnimSetSRRef",
+            "asyncAnimSet": {
+              "DepotPath": {
+                "$type": "ResourcePath",
+                "$storage": "string",
+                "$value": "base\\animations\\weapon\\two_handed_blunt\\pwa_two_handed_blunt.anims"
+              },
+              "Flags": "Soft"
+            }
+          },
+          {
+            "$type": "scnGameplayAnimSetSRRef",
+            "asyncAnimSet": {
+              "DepotPath": {
+                "$type": "ResourcePath",
+                "$storage": "string",
+                "$value": "base\\animations\\player\\female\\body\\player_locomotion_johnny_guitar.anims"
+              },
+              "Flags": "Soft"
+            }
+          },
+          {
+            "$type": "scnGameplayAnimSetSRRef",
+            "asyncAnimSet": {
+              "DepotPath": {
+                "$type": "ResourcePath",
+                "$storage": "string",
+                "$value": "base\\animations\\weapon\\one_handed_blunt\\pma_one_handed_blunt.anims"
+              },
+              "Flags": "Soft"
+            }
+          },
+          {
+            "$type": "scnGameplayAnimSetSRRef",
+            "asyncAnimSet": {
+              "DepotPath": {
+                "$type": "ResourcePath",
+                "$storage": "string",
+                "$value": "base\\animations\\player\\male\\body\\player_locomotion_sick.anims"
+              },
+              "Flags": "Soft"
+            }
+          }
+        ],
+        "lipsyncAnimSets": [],
+        "ridAnimationContainers": [],
+        "ridAnimations": [],
+        "ridAnimSets": [],
+        "ridCameraAnimations": [],
+        "ridCyberwareAnimSets": [],
+        "ridDeformationAnimSets": [],
+        "ridFacialAnimSets": []
+      },
+      "ridResources": [],
+      "sceneCategoryTag": "mainQuests",
+      "sceneGraph": {
+        "HandleId": "2",
+        "Data": {
+          "$type": "scnSceneGraph",
+          "endNodes": [
+            {
+              "$type": "scnNodeId",
+              "id": 2
+            }
+          ],
+          "graph": [
+            {
+              "HandleId": "3",
+              "Data": {
+                "$type": "scnStartNode",
+                "ffStrategy": "automatic",
+                "nodeId": {
+                  "$type": "scnNodeId",
+                  "id": 1
+                },
+                "outputSockets": [
+                  {
+                    "$type": "scnOutputSocket",
+                    "destinations": [
+                      {
+                        "$type": "scnInputSocketId",
+                        "isockStamp": {
+                          "$type": "scnInputSocketStamp",
+                          "name": 0,
+                          "ordinal": 1
+                        },
+                        "nodeId": {
+                          "$type": "scnNodeId",
+                          "id": 6
+                        }
+                      },
+                      {
+                        "$type": "scnInputSocketId",
+                        "isockStamp": {
+                          "$type": "scnInputSocketStamp",
+                          "name": 0,
+                          "ordinal": 0
+                        },
+                        "nodeId": {
+                          "$type": "scnNodeId",
+                          "id": 7
+                        }
+                      },
+                      {
+                        "$type": "scnInputSocketId",
+                        "isockStamp": {
+                          "$type": "scnInputSocketStamp",
+                          "name": 0,
+                          "ordinal": 1
+                        },
+                        "nodeId": {
+                          "$type": "scnNodeId",
+                          "id": 10
+                        }
+                      }
+                    ],
+                    "stamp": {
+                      "$type": "scnOutputSocketStamp",
+                      "name": 0,
+                      "ordinal": 0
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "HandleId": "4",
+              "Data": {
+                "$type": "scnQuestNode",
+                "ffStrategy": "automatic",
+                "isockMappings": [
+                  {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "CutDestination"
+                  },
+                  {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "In"
+                  }
+                ],
+                "nodeId": {
+                  "$type": "scnNodeId",
+                  "id": 3
+                },
+                "osockMappings": [
+                  {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "Out"
+                  }
+                ],
+                "outputSockets": [
+                  {
+                    "$type": "scnOutputSocket",
+                    "destinations": [
+                      {
+                        "$type": "scnInputSocketId",
+                        "isockStamp": {
+                          "$type": "scnInputSocketStamp",
+                          "name": 0,
+                          "ordinal": 0
+                        },
+                        "nodeId": {
+                          "$type": "scnNodeId",
+                          "id": 9
+                        }
+                      }
+                    ],
+                    "stamp": {
+                      "$type": "scnOutputSocketStamp",
+                      "name": 0,
+                      "ordinal": 0
+                    }
+                  }
+                ],
+                "questNode": {
+                  "HandleId": "5",
+                  "Data": {
+                    "$type": "questUIManagerNodeDefinition",
+                    "id": 65535,
+                    "sockets": [],
+                    "type": {
+                      "HandleId": "6",
+                      "Data": {
+                        "$type": "questWarningMessage_NodeType",
+                        "duration": 3,
+                        "instant": 0,
+                        "localizedMessage": {
+                          "unk1": "0",
+                          "value": ""
+                        },
+                        "message": "Johnny scene starts",
+                        "show": 1,
+                        "type": "Boss"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "HandleId": "7",
+              "Data": {
+                "$type": "scnSectionNode",
+                "actorBehaviors": [],
+                "events": [
+                  {
+                    "HandleId": "8",
+                    "Data": {
+                      "$type": "scnPlaySkAnimEvent",
+                      "actorComponent": {
+                        "$type": "CName",
+                        "$storage": "string",
+                        "$value": "body"
+                      },
+                      "animData": {
+                        "$type": "scneventsPlayAnimEventExData",
+                        "basic": {
+                          "$type": "scneventsPlayAnimEventData",
+                          "blendIn": 0.5,
+                          "blendInCurve": "SinusoidalEaseInOut",
+                          "blendOut": 0.5,
+                          "blendOutCurve": "SinusoidalEaseInOut",
+                          "clipEnd": 0,
+                          "clipFront": 0,
+                          "stretch": 1
+                        },
+                        "bodyPartMask": {
+                          "$type": "CName",
+                          "$storage": "string",
+                          "$value": "None"
+                        },
+                        "weight": 1
+                      },
+                      "animName": {
+                        "HandleId": "9",
+                        "Data": {
+                          "$type": "scnAnimName",
+                          "type": "direct",
+                          "unk1": [
+                            {
+                              "$type": "CName",
+                              "$storage": "string",
+                              "$value": "sit_bench_lean180__rh_on_backrest__01__to__stand__2h_on_sides__01__turn0__01"
+                            }
+                          ],
+                          "unk2": []
+                        }
+                      },
+                      "blendOverride": "Custom_PitchYaw",
+                      "cameraBlendInDuration": 1,
+                      "cameraBlendOutDuration": 1.5,
+                      "cameraParallaxSpace": "Camera",
+                      "cameraParallaxWeight": 0,
+                      "cameraUseTrajectorySpace": 1,
+                      "convertToAdditive": 0,
+                      "duration": 3500,
+                      "enableWorldSpaceSmoothing": 1,
+                      "executionTagFlags": 0,
+                      "eyesBlendAdditive": 1,
+                      "FPPControlActive": 1,
+                      "gameplayAnimName": {
+                        "HandleId": "10",
+                        "Data": {
+                          "$type": "scnAnimName",
+                          "type": "direct",
+                          "unk1": [
+                            {
+                              "$type": "CName",
+                              "$storage": "string",
+                              "$value": "fpp_idle_stand"
+                            }
+                          ],
+                          "unk2": []
+                        }
+                      },
+                      "genderSpecificParams": [
+                        {
+                          "$type": "scnfppGenderSpecificParams",
+                          "genderMask": {
+                            "$type": "scnGenderMask",
+                            "mask": 2
+                          },
+                          "idleCameraLs": {
+                            "$type": "EulerAngles",
+                            "Pitch": 0,
+                            "Roll": 0,
+                            "Yaw": 0
+                          },
+                          "idleControlCameraMs": {
+                            "$type": "EulerAngles",
+                            "Pitch": 0,
+                            "Roll": 0,
+                            "Yaw": 0
+                          },
+                          "transitionBlendInCameraSpace": [0,0.0526315719,0.105263159,0.157894731,0.210526317,0.263157904,0.315789461,0.368421048,0.421052635,0.473684222,0.526315808,0.578947365,0.631578922,0.684210539,0.736842096,0.789473712,0.842105269,0.894736826,0.947368443,1
+                          ],
+                          "transitionBlendInTrajectorySpaceAngles": [
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -3.15008855,
+                              "Roll": -0.351569414,
+                              "Yaw": -1.76933467
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -3.16431832,
+                              "Roll": -0.372972131,
+                              "Yaw": -1.76094747
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -3.21132684,
+                              "Roll": -0.429782003,
+                              "Yaw": -1.71511805
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -3.37238073,
+                              "Roll": -0.643563151,
+                              "Yaw": -1.55051792
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -3.6327486,
+                              "Roll": -0.996517837,
+                              "Yaw": -1.25622594
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -4.06198645,
+                              "Roll": -1.56836605,
+                              "Yaw": -0.810168743
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -4.98533154,
+                              "Roll": -2.52887678,
+                              "Yaw": -0.0575759783
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -6.07835388,
+                              "Roll": -3.47040701,
+                              "Yaw": 0.699109852
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -7.63884211,
+                              "Roll": -4.41466475,
+                              "Yaw": 1.44141889
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -9.6835804,
+                              "Roll": -5.15412569,
+                              "Yaw": 2.07663107
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -12.1676311,
+                              "Roll": -5.53630638,
+                              "Yaw": 2.51607943
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -14.9432335,
+                              "Roll": -5.50789976,
+                              "Yaw": 2.8267765
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -17.8239918,
+                              "Roll": -5.10647154,
+                              "Yaw": 3.00962377
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -20.6212063,
+                              "Roll": -4.43315077,
+                              "Yaw": 3.18038607
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -23.1793575,
+                              "Roll": -3.61748624,
+                              "Yaw": 3.26666164
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -25.3881912,
+                              "Roll": -2.75345707,
+                              "Yaw": 3.39953113
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -27.2119064,
+                              "Roll": -1.94751477,
+                              "Yaw": 3.47771239
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -28.6983624,
+                              "Roll": -1.26406264,
+                              "Yaw": 3.49622297
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -29.8745461,
+                              "Roll": -0.769439876,
+                              "Yaw": 3.40725994
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -31.1509304,
+                              "Roll": -0.319108784,
+                              "Yaw": 3.23958516
+                            }
+                          ],
+                          "transitionEndInputAngles": [
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -21.6274891,
+                              "Roll": 1.85159969,
+                              "Yaw": 0.692074418
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -19.3129425,
+                              "Roll": 1.64594197,
+                              "Yaw": 1.4421953
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -17.1058006,
+                              "Roll": 1.44563544,
+                              "Yaw": 2.24717236
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -15.0731525,
+                              "Roll": 1.30124187,
+                              "Yaw": 3.11965752
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -13.0398083,
+                              "Roll": 1.20604551,
+                              "Yaw": 4.07068634
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -11.1310463,
+                              "Roll": 1.10390317,
+                              "Yaw": 5.04024839
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -9.61435986,
+                              "Roll": 1.03975606,
+                              "Yaw": 5.96859074
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -8.22079945,
+                              "Roll": 0.952748597,
+                              "Yaw": 6.91832066
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -7.02302074,
+                              "Roll": 0.844877243,
+                              "Yaw": 7.93271875
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -5.98854446,
+                              "Roll": 0.731352329,
+                              "Yaw": 8.97304916
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -5.15080452,
+                              "Roll": 0.61807251,
+                              "Yaw": 9.91266918
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -4.43711233,
+                              "Roll": 0.503545642,
+                              "Yaw": 10.897851
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -3.85227609,
+                              "Roll": 0.396197379,
+                              "Yaw": 11.8902817
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -3.4129889,
+                              "Roll": 0.298085213,
+                              "Yaw": 12.9191475
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -2.99119973,
+                              "Roll": 0.186226785,
+                              "Yaw": 13.8901024
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -2.68016338,
+                              "Roll": 0.0968133137,
+                              "Yaw": 14.8525887
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -2.43471837,
+                              "Roll": 0.0155729093,
+                              "Yaw": 15.8929081
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -2.32589197,
+                              "Roll": -0.0363170356,
+                              "Yaw": 16.9402237
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -2.23117638,
+                              "Roll": -0.0822767913,
+                              "Yaw": 17.9125214
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -2.17488289,
+                              "Roll": -0.123533167,
+                              "Yaw": 18.8906994
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -2.19233775,
+                              "Roll": -0.141801685,
+                              "Yaw": 19.915657
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -2.23127484,
+                              "Roll": -0.15092507,
+                              "Yaw": 20.8943272
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -2.27119136,
+                              "Roll": -0.161353692,
+                              "Yaw": 21.9272957
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -2.34263301,
+                              "Roll": -0.15636237,
+                              "Yaw": 22.8521347
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -2.42283297,
+                              "Roll": -0.146898791,
+                              "Yaw": 23.9131031
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -2.50697494,
+                              "Roll": -0.131715,
+                              "Yaw": 24.9977646
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -2.60157228,
+                              "Roll": -0.109465383,
+                              "Yaw": 25.9596329
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -2.69872451,
+                              "Roll": -0.0820204988,
+                              "Yaw": 26.9392204
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -2.79565191,
+                              "Roll": -0.0517268255,
+                              "Yaw": 27.9858303
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -2.89731216,
+                              "Roll": -0.026140105,
+                              "Yaw": 28.9848652
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -3.00000024,
+                              "Roll": 1.60302235E-07,
+                              "Yaw": 30.0000057
+                            }
+                          ]
+                        },
+                        {
+                          "$type": "scnfppGenderSpecificParams",
+                          "genderMask": {
+                            "$type": "scnGenderMask",
+                            "mask": 1
+                          },
+                          "idleCameraLs": {
+                            "$type": "EulerAngles",
+                            "Pitch": 0,
+                            "Roll": 0,
+                            "Yaw": 0
+                          },
+                          "idleControlCameraMs": {
+                            "$type": "EulerAngles",
+                            "Pitch": 0,
+                            "Roll": 0,
+                            "Yaw": 0
+                          },
+                          "transitionBlendInCameraSpace": [0,0.0526315719,0.105263159,0.157894731,0.210526317,0.263157904,0.315789461,0.368421048,0.421052635,0.473684222,0.526315808,0.578947365,0.631578922,0.684210539,0.736842096,0.789473712,0.842105269,0.894736826,0.947368443,1
+                          ],
+                          "transitionBlendInTrajectorySpaceAngles": [
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -3.15008855,
+                              "Roll": -0.351569414,
+                              "Yaw": -1.76933467
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -3.16431832,
+                              "Roll": -0.372972131,
+                              "Yaw": -1.76094747
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -3.21132684,
+                              "Roll": -0.429782003,
+                              "Yaw": -1.71511805
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -3.37238073,
+                              "Roll": -0.643563151,
+                              "Yaw": -1.55051792
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -3.6327486,
+                              "Roll": -0.996517837,
+                              "Yaw": -1.25622594
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -4.06198645,
+                              "Roll": -1.56836605,
+                              "Yaw": -0.810168743
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -4.98533154,
+                              "Roll": -2.52887678,
+                              "Yaw": -0.0575759783
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -6.07836437,
+                              "Roll": -3.47040558,
+                              "Yaw": 0.69910866
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -7.63737774,
+                              "Roll": -4.41664171,
+                              "Yaw": 1.43944538
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -9.68357658,
+                              "Roll": -5.15412807,
+                              "Yaw": 2.0766325
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -12.1676311,
+                              "Roll": -5.53630638,
+                              "Yaw": 2.51607943
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -14.9432335,
+                              "Roll": -5.50789976,
+                              "Yaw": 2.8267765
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -17.8239918,
+                              "Roll": -5.10647154,
+                              "Yaw": 3.00962377
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -20.6212063,
+                              "Roll": -4.43315077,
+                              "Yaw": 3.18038607
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -23.1793575,
+                              "Roll": -3.61748624,
+                              "Yaw": 3.26666164
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -25.3881912,
+                              "Roll": -2.75345707,
+                              "Yaw": 3.39953113
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -27.2119064,
+                              "Roll": -1.94751477,
+                              "Yaw": 3.47771239
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -28.6983624,
+                              "Roll": -1.26406264,
+                              "Yaw": 3.49622297
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -29.8745461,
+                              "Roll": -0.769439876,
+                              "Yaw": 3.40725994
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -31.1509304,
+                              "Roll": -0.319108784,
+                              "Yaw": 3.23958516
+                            }
+                          ],
+                          "transitionEndInputAngles": [
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -21.6274891,
+                              "Roll": 1.85159969,
+                              "Yaw": 0.692074418
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -19.3129425,
+                              "Roll": 1.64594197,
+                              "Yaw": 1.4421953
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -17.1058006,
+                              "Roll": 1.44563544,
+                              "Yaw": 2.24717236
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -15.0731525,
+                              "Roll": 1.30124187,
+                              "Yaw": 3.11965752
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -13.0398083,
+                              "Roll": 1.20604551,
+                              "Yaw": 4.07068634
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -11.1310463,
+                              "Roll": 1.10390317,
+                              "Yaw": 5.04024839
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -9.61435986,
+                              "Roll": 1.03975606,
+                              "Yaw": 5.96859074
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -8.22079945,
+                              "Roll": 0.952748597,
+                              "Yaw": 6.91832066
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -7.02302074,
+                              "Roll": 0.844877243,
+                              "Yaw": 7.93271875
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -5.98854446,
+                              "Roll": 0.731352329,
+                              "Yaw": 8.97304916
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -5.15080452,
+                              "Roll": 0.61807251,
+                              "Yaw": 9.91266918
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -4.43711233,
+                              "Roll": 0.503545642,
+                              "Yaw": 10.897851
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -3.85227609,
+                              "Roll": 0.396197379,
+                              "Yaw": 11.8902817
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -3.4129889,
+                              "Roll": 0.298085213,
+                              "Yaw": 12.9191475
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -2.99119973,
+                              "Roll": 0.186226785,
+                              "Yaw": 13.8901024
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -2.68016338,
+                              "Roll": 0.0968133137,
+                              "Yaw": 14.8525887
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -2.43471837,
+                              "Roll": 0.0155729093,
+                              "Yaw": 15.8929081
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -2.32589197,
+                              "Roll": -0.0363170356,
+                              "Yaw": 16.9402237
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -2.23117638,
+                              "Roll": -0.0822767913,
+                              "Yaw": 17.9125214
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -2.17488289,
+                              "Roll": -0.123533167,
+                              "Yaw": 18.8906994
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -2.19233775,
+                              "Roll": -0.141801685,
+                              "Yaw": 19.915657
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -2.23127484,
+                              "Roll": -0.15092507,
+                              "Yaw": 20.8943272
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -2.27119136,
+                              "Roll": -0.161353692,
+                              "Yaw": 21.9272957
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -2.34263301,
+                              "Roll": -0.15636237,
+                              "Yaw": 22.8521347
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -2.42283297,
+                              "Roll": -0.146898791,
+                              "Yaw": 23.9131031
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -2.50697494,
+                              "Roll": -0.131715,
+                              "Yaw": 24.9977646
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -2.60157228,
+                              "Roll": -0.109465383,
+                              "Yaw": 25.9596329
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -2.69872451,
+                              "Roll": -0.0820204988,
+                              "Yaw": 26.9392204
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -2.79565191,
+                              "Roll": -0.0517268255,
+                              "Yaw": 27.9858303
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -2.89731216,
+                              "Roll": -0.026140105,
+                              "Yaw": 28.9848652
+                            },
+                            {
+                              "$type": "EulerAngles",
+                              "Pitch": -3.00000024,
+                              "Roll": 1.60302235E-07,
+                              "Yaw": 30.0000057
+                            }
+                          ]
+                        }
+                      ],
+                      "id": {
+                        "$type": "scnSceneEventId",
+                        "id": "3053389207235895304"
+                      },
+                      "idleIsMountedWorkspot": 0,
+                      "isSceneCarrying": 0,
+                      "lowerFaceBlendAdditive": 1,
+                      "muteAnimEvents": "0",
+                      "neckWeight": 1,
+                      "performer": {
+                        "$type": "scnPerformerId",
+                        "id": 1
+                      },
+                      "pitchLimitBottom": 0,
+                      "pitchLimitTop": 0,
+                      "playerData": {
+                        "$type": "scnPlayerAnimData",
+                        "isEndOfCarryingAnimation": 0,
+                        "tierData": {
+                          "HandleId": "11",
+                          "Data": {
+                            "$type": "gameSceneTier4Data",
+                            "emptyHands": 1,
+                            "params": {
+                              "$type": "gameMotionConstrainedTierDataParams",
+                              "adjustingDuration": 0,
+                              "adjustingSpeed": 0,
+                              "notificationBackwardIndex": 0,
+                              "splineRef": {
+                                "$type": "NodeRef",
+                                "$storage": "uint64",
+                                "$value": "0"
+                              },
+                              "travellingDuration": 0,
+                              "travellingSpeed": 0
+                            },
+                            "tier": "Tier4_FPPCinematic",
+                            "userDebugInfo": "sit_bench_lean180__rh_on_backrest__01__to__stand__2h_on_sides__01__turn0__01"
+                          }
+                        },
+                        "unmountBodyCarry": 1,
+                        "useZSnapping": 1
+                      },
+                      "poseBlendOutWorkspot": null,
+                      "rootMotionData": {
+                        "$type": "scnPlaySkAnimRootMotionData",
+                        "customBlendInCurve": "SinusoidalEaseInOut",
+                        "customBlendInTime": -1,
+                        "enabled": 1,
+                        "meshDissolvingEnabled": 1,
+                        "originMarker": {
+                          "$type": "scnMarker",
+                          "entityRef": {
+                            "$type": "gameEntityReference",
+                            "dynamicEntityUniqueName": {
+                              "$type": "CName",
+                              "$storage": "string",
+                              "$value": "None"
+                            },
+                            "names": [],
+                            "reference": {
+                              "$type": "NodeRef",
+                              "$storage": "uint64",
+                              "$value": "0"
+                            },
+                            "sceneActorContextName": {
+                              "$type": "CName",
+                              "$storage": "string",
+                              "$value": "None"
+                            },
+                            "slotName": {
+                              "$type": "CName",
+                              "$storage": "string",
+                              "$value": "None"
+                            },
+                            "type": "EntityRef"
+                          },
+                          "isMounted": 1,
+                          "localMarkerId": {
+                            "$type": "CName",
+                            "$storage": "string",
+                            "$value": "None"
+                          },
+                          "nodeRef": {
+                            "$type": "NodeRef",
+                            "$storage": "uint64",
+                            "$value": "0"
+                          },
+                          "slotName": {
+                            "$type": "CName",
+                            "$storage": "string",
+                            "$value": "None"
+                          },
+                          "type": "Global"
+                        },
+                        "originOffset": {
+                          "$type": "Transform",
+                          "orientation": {
+                            "$type": "Quaternion",
+                            "i": 0,
+                            "j": 0,
+                            "k": 0,
+                            "r": 1
+                          },
+                          "position": {
+                            "$type": "Vector4",
+                            "W": 0,
+                            "X": 0,
+                            "Y": 0,
+                            "Z": 0
+                          }
+                        },
+                        "placementMode": "Blend",
+                        "removePitchRollRotation": 1,
+                        "snapToGround": 0,
+                        "snapToGroundEnd": 0,
+                        "snapToGroundStart": 0,
+                        "trajectoryLOD": [],
+                        "vehicleChangePhysicsState": 1,
+                        "vehicleEnabledPhysicsOnEnd": 1
+                      },
+                      "scalingData": {
+                        "HandleId": "12",
+                        "Data": {
+                          "$type": "scnScalingData_KeepRelationWithOtherEvents",
+                          "groupRfrncNdspaceEndtime": {
+                            "$type": "scnSceneTime",
+                            "stu": 3500
+                          },
+                          "groupRfrncNdspaceStarttime": {
+                            "$type": "scnSceneTime",
+                            "stu": 0
+                          }
+                        }
+                      },
+                      "startTime": 0,
+                      "stayInScene": 0,
+                      "type": "0",
+                      "upperFaceBlendAdditive": 1,
+                      "vehicleProceduralCameraWeight": 0,
+                      "yawLimitLeft": 0,
+                      "yawLimitRight": 0
+                    }
+                  },
+                  {
+                    "HandleId": "13",
+                    "Data": {
+                      "$type": "scnIKEvent",
+                      "duration": 500,
+                      "executionTagFlags": 0,
+                      "id": {
+                        "$type": "scnSceneEventId",
+                        "id": "3053389207252672512"
+                      },
+                      "ikData": {
+                        "$type": "scnIKEventData",
+                        "basic": {
+                          "$type": "scnAnimTargetBasicData",
+                          "isStart": 0,
+                          "performerId": {
+                            "$type": "scnPerformerId",
+                            "id": 1
+                          },
+                          "staticTarget": {
+                            "$type": "Vector4",
+                            "W": 1,
+                            "X": 0,
+                            "Y": 0,
+                            "Z": 0
+                          },
+                          "targetActorId": {
+                            "$type": "scnActorId",
+                            "id": 4294967295
+                          },
+                          "targetOffsetEntitySpace": {
+                            "$type": "Vector4",
+                            "W": 0,
+                            "X": 0,
+                            "Y": 0,
+                            "Z": 0
+                          },
+                          "targetPerformerId": {
+                            "$type": "scnPerformerId",
+                            "id": 4294967040
+                          },
+                          "targetPropId": {
+                            "$type": "scnPropId",
+                            "id": 4294967295
+                          },
+                          "targetSlot": {
+                            "$type": "CName",
+                            "$storage": "string",
+                            "$value": "None"
+                          },
+                          "targetType": "Actor"
+                        },
+                        "chainName": {
+                          "$type": "CName",
+                          "$storage": "string",
+                          "$value": "ikLeftArm"
+                        },
+                        "orientation": {
+                          "$type": "Quaternion",
+                          "i": 0,
+                          "j": 0,
+                          "k": 0,
+                          "r": 1
+                        },
+                        "request": {
+                          "$type": "animIKTargetRequest",
+                          "priority": -1,
+                          "transitionIn": 0.5,
+                          "transitionOut": 0.300000012,
+                          "weightOrientation": 1,
+                          "weightPosition": 1
+                        }
+                      },
+                      "scalingData": {
+                        "HandleId": "14",
+                        "Data": {
+                          "$type": "scnScalingData_KeepRelationWithOtherEvents",
+                          "groupRfrncNdspaceEndtime": {
+                            "$type": "scnSceneTime",
+                            "stu": 3500
+                          },
+                          "groupRfrncNdspaceStarttime": {
+                            "$type": "scnSceneTime",
+                            "stu": 0
+                          }
+                        }
+                      },
+                      "startTime": 0,
+                      "type": "0"
+                    }
+                  },
+                  {
+                    "HandleId": "15",
+                    "Data": {
+                      "$type": "scnIKEvent",
+                      "duration": 500,
+                      "executionTagFlags": 0,
+                      "id": {
+                        "$type": "scnSceneEventId",
+                        "id": "3053389207252672516"
+                      },
+                      "ikData": {
+                        "$type": "scnIKEventData",
+                        "basic": {
+                          "$type": "scnAnimTargetBasicData",
+                          "isStart": 0,
+                          "performerId": {
+                            "$type": "scnPerformerId",
+                            "id": 1
+                          },
+                          "staticTarget": {
+                            "$type": "Vector4",
+                            "W": 1,
+                            "X": 0,
+                            "Y": 0,
+                            "Z": 0
+                          },
+                          "targetActorId": {
+                            "$type": "scnActorId",
+                            "id": 4294967295
+                          },
+                          "targetOffsetEntitySpace": {
+                            "$type": "Vector4",
+                            "W": 0,
+                            "X": 0,
+                            "Y": 0,
+                            "Z": 0
+                          },
+                          "targetPerformerId": {
+                            "$type": "scnPerformerId",
+                            "id": 4294967040
+                          },
+                          "targetPropId": {
+                            "$type": "scnPropId",
+                            "id": 4294967295
+                          },
+                          "targetSlot": {
+                            "$type": "CName",
+                            "$storage": "string",
+                            "$value": "None"
+                          },
+                          "targetType": "Actor"
+                        },
+                        "chainName": {
+                          "$type": "CName",
+                          "$storage": "string",
+                          "$value": "ikRightArm"
+                        },
+                        "orientation": {
+                          "$type": "Quaternion",
+                          "i": 0,
+                          "j": 0,
+                          "k": 0,
+                          "r": 1
+                        },
+                        "request": {
+                          "$type": "animIKTargetRequest",
+                          "priority": -1,
+                          "transitionIn": 0.5,
+                          "transitionOut": 0.300000012,
+                          "weightOrientation": 1,
+                          "weightPosition": 1
+                        }
+                      },
+                      "scalingData": {
+                        "HandleId": "16",
+                        "Data": {
+                          "$type": "scnScalingData_KeepRelationWithOtherEvents",
+                          "groupRfrncNdspaceEndtime": {
+                            "$type": "scnSceneTime",
+                            "stu": 3500
+                          },
+                          "groupRfrncNdspaceStarttime": {
+                            "$type": "scnSceneTime",
+                            "stu": 0
+                          }
+                        }
+                      },
+                      "startTime": 0,
+                      "type": "0"
+                    }
+                  },
+                  {
+                    "HandleId": "17",
+                    "Data": {
+                      "$type": "scnAudioEvent",
+                      "ambientUniqueName": {
+                        "$type": "CName",
+                        "$storage": "string",
+                        "$value": "None"
+                      },
+                      "audioEventName": {
+                        "$type": "CName",
+                        "$storage": "string",
+                        "$value": "q004_sc_06_v_stands_up"
+                      },
+                      "duration": 0,
+                      "emitterName": {
+                        "$type": "CName",
+                        "$storage": "string",
+                        "$value": "default"
+                      },
+                      "executionTagFlags": 0,
+                      "fastForwardSupport": "MuteDuringFastForward",
+                      "id": {
+                        "$type": "scnSceneEventId",
+                        "id": "3053389207269449740"
+                      },
+                      "performer": {
+                        "$type": "scnPerformerId",
+                        "id": 1
+                      },
+                      "scalingData": null,
+                      "startTime": 398,
+                      "type": "0"
+                    }
+                  },
+                  {
+                    "HandleId": "18",
+                    "Data": {
+                      "$type": "scnGameplayTransitionEvent",
+                      "duration": 0,
+                      "executionTagFlags": 0,
+                      "id": {
+                        "$type": "scnSceneEventId",
+                        "id": "3053389207252672528"
+                      },
+                      "performer": {
+                        "$type": "scnPerformerId",
+                        "id": 1
+                      },
+                      "scalingData": {
+                        "HandleId": "19",
+                        "Data": {
+                          "$type": "scnScalingData_KeepRelationWithOtherEvents",
+                          "groupRfrncNdspaceEndtime": {
+                            "$type": "scnSceneTime",
+                            "stu": 3500
+                          },
+                          "groupRfrncNdspaceStarttime": {
+                            "$type": "scnSceneTime",
+                            "stu": 0
+                          }
+                        }
+                      },
+                      "startTime": 2999,
+                      "type": "0",
+                      "vehState": "IdleStand"
+                    }
+                  },
+                  {
+                    "HandleId": "20",
+                    "Data": {
+                      "$type": "scneventsSetAnimFeatureEvent",
+                      "actorId": {
+                        "$type": "scnActorId",
+                        "id": 1
+                      },
+                      "animFeature": {
+                        "HandleId": "21",
+                        "Data": {
+                          "$type": "animAnimFeature_VehiclePassengerAnimSetup",
+                          "additiveScale": 1,
+                          "enableAdditiveAnim": 1
+                        }
+                      },
+                      "animFeatureName": {
+                        "$type": "CName",
+                        "$storage": "string",
+                        "$value": "VehiclePassengerSetup"
+                      },
+                      "duration": 0,
+                      "executionTagFlags": 0,
+                      "id": {
+                        "$type": "scnSceneEventId",
+                        "id": "3053389207252672520"
+                      },
+                      "scalingData": {
+                        "HandleId": "22",
+                        "Data": {
+                          "$type": "scnScalingData_KeepRelationWithOtherEvents",
+                          "groupRfrncNdspaceEndtime": {
+                            "$type": "scnSceneTime",
+                            "stu": 3500
+                          },
+                          "groupRfrncNdspaceStarttime": {
+                            "$type": "scnSceneTime",
+                            "stu": 0
+                          }
+                        }
+                      },
+                      "startTime": 3499,
+                      "type": "0"
+                    }
+                  },
+                  {
+                    "HandleId": "23",
+                    "Data": {
+                      "$type": "scnUnmountEvent",
+                      "duration": 0,
+                      "executionTagFlags": 0,
+                      "id": {
+                        "$type": "scnSceneEventId",
+                        "id": "3053389207252672524"
+                      },
+                      "performer": {
+                        "$type": "scnPerformerId",
+                        "id": 1
+                      },
+                      "scalingData": {
+                        "HandleId": "24",
+                        "Data": {
+                          "$type": "scnScalingData_KeepRelationWithOtherEvents",
+                          "groupRfrncNdspaceEndtime": {
+                            "$type": "scnSceneTime",
+                            "stu": 3500
+                          },
+                          "groupRfrncNdspaceStarttime": {
+                            "$type": "scnSceneTime",
+                            "stu": 0
+                          }
+                        }
+                      },
+                      "startTime": 3499,
+                      "type": "0"
+                    }
+                  }
+                ],
+                "ffStrategy": "automatic",
+                "isFocusClue": 0,
+                "nodeId": {
+                  "$type": "scnNodeId",
+                  "id": 4
+                },
+                "outputSockets": [
+                  {
+                    "$type": "scnOutputSocket",
+                    "destinations": [
+                      {
+                        "$type": "scnInputSocketId",
+                        "isockStamp": {
+                          "$type": "scnInputSocketStamp",
+                          "name": 0,
+                          "ordinal": 1
+                        },
+                        "nodeId": {
+                          "$type": "scnNodeId",
+                          "id": 4
+                        }
+                      },
+                      {
+                        "$type": "scnInputSocketId",
+                        "isockStamp": {
+                          "$type": "scnInputSocketStamp",
+                          "name": 0,
+                          "ordinal": 1
+                        },
+                        "nodeId": {
+                          "$type": "scnNodeId",
+                          "id": 3
+                        }
+                      }
+                    ],
+                    "stamp": {
+                      "$type": "scnOutputSocketStamp",
+                      "name": 0,
+                      "ordinal": 0
+                    }
+                  },
+                  {
+                    "$type": "scnOutputSocket",
+                    "destinations": [],
+                    "stamp": {
+                      "$type": "scnOutputSocketStamp",
+                      "name": 1,
+                      "ordinal": 0
+                    }
+                  },
+                  {
+                    "$type": "scnOutputSocket",
+                    "destinations": [],
+                    "stamp": {
+                      "$type": "scnOutputSocketStamp",
+                      "name": 3,
+                      "ordinal": 0
+                    }
+                  }
+                ],
+                "sectionDuration": {
+                  "$type": "scnSceneTime",
+                  "stu": 3500
+                }
+              }
+            },
+            {
+              "HandleId": "25",
+              "Data": {
+                "$type": "scnQuestNode",
+                "ffStrategy": "automatic",
+                "isockMappings": [
+                  {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "CutDestination"
+                  },
+                  {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "In"
+                  }
+                ],
+                "nodeId": {
+                  "$type": "scnNodeId",
+                  "id": 5
+                },
+                "osockMappings": [
+                  {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "Out"
+                  }
+                ],
+                "outputSockets": [
+                  {
+                    "$type": "scnOutputSocket",
+                    "destinations": [],
+                    "stamp": {
+                      "$type": "scnOutputSocketStamp",
+                      "name": 0,
+                      "ordinal": 0
+                    }
+                  }
+                ],
+                "questNode": {
+                  "HandleId": "26",
+                  "Data": {
+                    "$type": "questUIManagerNodeDefinition",
+                    "id": 65535,
+                    "sockets": [],
+                    "type": {
+                      "HandleId": "27",
+                      "Data": {
+                        "$type": "questSetHUDEntryForcedVisibility_NodeType",
+                        "hudEntryName": [],
+                        "hudVisibilityPreset": {
+                          "$type": "TweakDBID",
+                          "$storage": "string",
+                          "$value": "HUDPreset.T4"
+                        },
+                        "skipAnimation": 0,
+                        "usePreset": 1,
+                        "visibility": "ForceHide"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "HandleId": "28",
+              "Data": {
+                "$type": "scnQuestNode",
+                "ffStrategy": "automatic",
+                "isockMappings": [
+                  {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "CutDestination"
+                  },
+                  {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "In"
+                  }
+                ],
+                "nodeId": {
+                  "$type": "scnNodeId",
+                  "id": 6
+                },
+                "osockMappings": [
+                  {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "Out"
+                  }
+                ],
+                "outputSockets": [
+                  {
+                    "$type": "scnOutputSocket",
+                    "destinations": [],
+                    "stamp": {
+                      "$type": "scnOutputSocketStamp",
+                      "name": 0,
+                      "ordinal": 0
+                    }
+                  }
+                ],
+                "questNode": {
+                  "HandleId": "29",
+                  "Data": {
+                    "$type": "questUseWorkspotNodeDefinition",
+                    "entityReference": {
+                      "$type": "gameEntityReference",
+                      "dynamicEntityUniqueName": {
+                        "$type": "CName",
+                        "$storage": "string",
+                        "$value": "None"
+                      },
+                      "names": [],
+                      "reference": {
+                        "$type": "NodeRef",
+                        "$storage": "string",
+                        "$value": "#player"
+                      },
+                      "sceneActorContextName": {
+                        "$type": "CName",
+                        "$storage": "string",
+                        "$value": "None"
+                      },
+                      "slotName": {
+                        "$type": "CName",
+                        "$storage": "string",
+                        "$value": "None"
+                      },
+                      "type": "EntityRef"
+                    },
+                    "id": 65535,
+                    "paramsV1": {
+                      "HandleId": "30",
+                      "Data": {
+                        "$type": "scnUseSceneWorkspotParamsV1",
+                        "changeWorkspot": 1,
+                        "continueInCombat": 0,
+                        "dangleResetSimulation": 0,
+                        "enableIdleMode": 1,
+                        "entryId": {
+                          "$type": "workWorkEntryId",
+                          "id": 2
+                        },
+                        "entryTag": {
+                          "$type": "CName",
+                          "$storage": "string",
+                          "$value": "None"
+                        },
+                        "exitAnimName": {
+                          "$type": "CName",
+                          "$storage": "string",
+                          "$value": "None"
+                        },
+                        "exitEntryId": {
+                          "$type": "workWorkEntryId",
+                          "id": 4294967295
+                        },
+                        "finishAnimation": 0,
+                        "forceEntryAnimName": {
+                          "$type": "CName",
+                          "$storage": "string",
+                          "$value": "None"
+                        },
+                        "function": "UseWorkspot",
+                        "instant": 0,
+                        "isPlayer": 1,
+                        "isWorkspotInfinite": 1,
+                        "itemOverride": {
+                          "$type": "workWorkspotItemOverride",
+                          "itemOverrides": [],
+                          "propOverrides": []
+                        },
+                        "jumpToEntry": 1,
+                        "maxAnimTimeLimit": 0,
+                        "meshDissolvingEnabled": 1,
+                        "movementType": "Walk",
+                        "playAtActorLocation": 0,
+                        "playerParams": {
+                          "$type": "questUseWorkspotPlayerParams",
+                          "applyCameraParams": 0,
+                          "cameraSettings": {
+                            "$type": "gameTier3CameraSettings",
+                            "pitchBottomLimit": 45,
+                            "pitchSpeedMultiplier": 1,
+                            "pitchTopLimit": 60,
+                            "yawLeftLimit": 60,
+                            "yawRightLimit": 60,
+                            "yawSpeedMultiplier": 1
+                          },
+                          "cameraUseTrajectorySpace": 1,
+                          "emptyHands": 1,
+                          "parallaxSpace": "Trajectory",
+                          "parallaxWeight": 1,
+                          "tier": "Tier3",
+                          "vehicleProceduralCameraWeight": 0
+                        },
+                        "repeatCommandOnInterrupt": 0,
+                        "teleport": 1,
+                        "workExcludedGestures": [],
+                        "workspotInstanceId": {
+                          "$type": "scnSceneWorkspotInstanceId",
+                          "id": 88777
+                        },
+                        "workspotNode": {
+                          "$type": "NodeRef",
+                          "$storage": "uint64",
+                          "$value": "0"
+                        }
+                      }
+                    },
+                    "sockets": []
+                  }
+                }
+              }
+            },
+            {
+              "HandleId": "31",
+              "Data": {
+                "$type": "scnChoiceNode",
+                "alwaysUseBrainGender": 0,
+                "ataParams": {
+                  "$type": "scnChoiceNodeNsAttachToActorParams",
+                  "actorId": {
+                    "$type": "scnActorId",
+                    "id": 4294967295
+                  },
+                  "visualizerStyle": "onScreen"
+                },
+                "atgoParams": {
+                  "$type": "scnChoiceNodeNsAttachToGameObjectParams",
+                  "nodeRef": {
+                    "$type": "NodeRef",
+                    "$storage": "uint64",
+                    "$value": "0"
+                  },
+                  "visualizerStyle": "inWorld"
+                },
+                "atpParams": {
+                  "$type": "scnChoiceNodeNsAttachToPropParams",
+                  "propId": {
+                    "$type": "scnPropId",
+                    "id": 4294967295
+                  },
+                  "visualizerStyle": "inWorld"
+                },
+                "atsParams": {
+                  "$type": "scnChoiceNodeNsAttachToScreenParams"
+                },
+                "atwParams": {
+                  "$type": "scnChoiceNodeNsAttachToWorldParams",
+                  "customEntityRadius": 0,
+                  "entityOrientation": {
+                    "$type": "Quaternion",
+                    "i": 0,
+                    "j": 0,
+                    "k": 0,
+                    "r": 1
+                  },
+                  "entityPosition": {
+                    "$type": "Vector3",
+                    "X": 0,
+                    "Y": 0,
+                    "Z": 0
+                  },
+                  "visualizerStyle": "onScreen"
+                },
+                "choiceFlags": "0",
+                "choiceGroup": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "None"
+                },
+                "choicePriority": 0,
+                "cpoHoldInputActionSection": 0,
+                "customPersistentLine": {
+                  "$type": "scnscreenplayItemId",
+                  "id": 4294967040
+                },
+                "displayNameOverride": "",
+                "doNotTurnOffPreventionSystem": 0,
+                "ffStrategy": "automatic",
+                "forceAttachToScreenCondition": null,
+                "hubPriority": 0,
+                "interruptCapability": "Interruptable",
+                "interruptionSpeakerOverride": {
+                  "$type": "scnActorId",
+                  "id": 4294967295
+                },
+                "localizedDisplayNameOverride": {
+                  "unk1": "0",
+                  "value": ""
+                },
+                "lookAtParams": null,
+                "mappinParams": null,
+                "mode": "attachToScreen",
+                "nodeId": {
+                  "$type": "scnNodeId",
+                  "id": 7
+                },
+                "options": [
+                  {
+                    "$type": "scnChoiceNodeOption",
+                    "blueline": 0,
+                    "bluelineCondition": null,
+                    "caption": {
+                      "$type": "CName",
+                      "$storage": "string",
+                      "$value": "None"
+                    },
+                    "emphasisCondition": null,
+                    "exDataFlags": 0,
+                    "gameplayAction": {
+                      "$type": "TweakDBID",
+                      "$storage": "uint64",
+                      "$value": "0"
+                    },
+                    "iconCondition": null,
+                    "iconTagIds": [],
+                    "isFixedAsRead": 0,
+                    "isSingleChoice": 0,
+                    "mappinReferencePointId": {
+                      "$type": "scnReferencePointId",
+                      "id": 4294967295
+                    },
+                    "questCondition": null,
+                    "screenplayOptionId": {
+                      "$type": "scnscreenplayItemId",
+                      "id": 2
+                    },
+                    "timedCondition": null,
+                    "timedParams": null,
+                    "triggerCondition": null,
+                    "type": {
+                      "$type": "gameinteractionsChoiceTypeWrapper",
+                      "properties": 1
+                    }
+                  }
+                ],
+                "outputSockets": [
+                  {
+                    "$type": "scnOutputSocket",
+                    "destinations": [
+                      {
+                        "$type": "scnInputSocketId",
+                        "isockStamp": {
+                          "$type": "scnInputSocketStamp",
+                          "name": 0,
+                          "ordinal": 0
+                        },
+                        "nodeId": {
+                          "$type": "scnNodeId",
+                          "id": 4
+                        }
+                      }
+                    ],
+                    "stamp": {
+                      "$type": "scnOutputSocketStamp",
+                      "name": 0,
+                      "ordinal": 0
+                    }
+                  },
+                  {
+                    "$type": "scnOutputSocket",
+                    "destinations": [],
+                    "stamp": {
+                      "$type": "scnOutputSocketStamp",
+                      "name": 1,
+                      "ordinal": 0
+                    }
+                  },
+                  {
+                    "$type": "scnOutputSocket",
+                    "destinations": [],
+                    "stamp": {
+                      "$type": "scnOutputSocketStamp",
+                      "name": 2,
+                      "ordinal": 0
+                    }
+                  },
+                  {
+                    "$type": "scnOutputSocket",
+                    "destinations": [],
+                    "stamp": {
+                      "$type": "scnOutputSocketStamp",
+                      "name": 3,
+                      "ordinal": 0
+                    }
+                  },
+                  {
+                    "$type": "scnOutputSocket",
+                    "destinations": [],
+                    "stamp": {
+                      "$type": "scnOutputSocketStamp",
+                      "name": 4,
+                      "ordinal": 0
+                    }
+                  },
+                  {
+                    "$type": "scnOutputSocket",
+                    "destinations": [],
+                    "stamp": {
+                      "$type": "scnOutputSocketStamp",
+                      "name": 5,
+                      "ordinal": 0
+                    }
+                  },
+                  {
+                    "$type": "scnOutputSocket",
+                    "destinations": [],
+                    "stamp": {
+                      "$type": "scnOutputSocketStamp",
+                      "name": 6,
+                      "ordinal": 0
+                    }
+                  }
+                ],
+                "persistentLineEvents": [],
+                "reminderCondition": null,
+                "reminderParams": null,
+                "shapeParams": null,
+                "timedParams": null,
+                "timedSectionCondition": null
+              }
+            },
+            {
+              "HandleId": "32",
+              "Data": {
+                "$type": "scnEndNode",
+                "ffStrategy": "automatic",
+                "nodeId": {
+                  "$type": "scnNodeId",
+                  "id": 9
+                },
+                "outputSockets": [
+                  {
+                    "$type": "scnOutputSocket",
+                    "destinations": [],
+                    "stamp": {
+                      "$type": "scnOutputSocketStamp",
+                      "name": 0,
+                      "ordinal": 0
+                    }
+                  }
+                ],
+                "type": "Terminating"
+              }
+            },
+            {
+              "HandleId": "33",
+              "Data": {
+                "$type": "scnQuestNode",
+                "ffStrategy": "automatic",
+                "isockMappings": [
+                  {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "CutDestination"
+                  },
+                  {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "In"
+                  }
+                ],
+                "nodeId": {
+                  "$type": "scnNodeId",
+                  "id": 10
+                },
+                "osockMappings": [
+                  {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "Out"
+                  }
+                ],
+                "outputSockets": [
+                  {
+                    "$type": "scnOutputSocket",
+                    "destinations": [],
+                    "stamp": {
+                      "$type": "scnOutputSocketStamp",
+                      "name": 0,
+                      "ordinal": 0
+                    }
+                  }
+                ],
+                "questNode": {
+                  "HandleId": "34",
+                  "Data": {
+                    "$type": "questUseWorkspotNodeDefinition",
+                    "entityReference": {
+                      "$type": "gameEntityReference",
+                      "dynamicEntityUniqueName": {
+                        "$type": "CName",
+                        "$storage": "string",
+                        "$value": "sq_johnny"
+                      },
+                      "names": [],
+                      "reference": {
+                        "$type": "NodeRef",
+                        "$storage": "uint64",
+                        "$value": "0"
+                      },
+                      "sceneActorContextName": {
+                        "$type": "CName",
+                        "$storage": "string",
+                        "$value": "None"
+                      },
+                      "slotName": {
+                        "$type": "CName",
+                        "$storage": "string",
+                        "$value": "None"
+                      },
+                      "type": "EntityRef"
+                    },
+                    "id": 65535,
+                    "paramsV1": {
+                      "HandleId": "35",
+                      "Data": {
+                        "$type": "scnUseSceneWorkspotParamsV1",
+                        "changeWorkspot": 1,
+                        "continueInCombat": 0,
+                        "dangleResetSimulation": 0,
+                        "enableIdleMode": 0,
+                        "entryId": {
+                          "$type": "workWorkEntryId",
+                          "id": 2
+                        },
+                        "entryTag": {
+                          "$type": "CName",
+                          "$storage": "string",
+                          "$value": "None"
+                        },
+                        "exitAnimName": {
+                          "$type": "CName",
+                          "$storage": "string",
+                          "$value": "None"
+                        },
+                        "exitEntryId": {
+                          "$type": "workWorkEntryId",
+                          "id": 4294967295
+                        },
+                        "finishAnimation": 1,
+                        "forceEntryAnimName": {
+                          "$type": "CName",
+                          "$storage": "string",
+                          "$value": "None"
+                        },
+                        "function": "UseWorkspot",
+                        "instant": 0,
+                        "isPlayer": 0,
+                        "isWorkspotInfinite": 1,
+                        "itemOverride": {
+                          "$type": "workWorkspotItemOverride",
+                          "itemOverrides": [],
+                          "propOverrides": []
+                        },
+                        "jumpToEntry": 1,
+                        "maxAnimTimeLimit": 0,
+                        "meshDissolvingEnabled": 1,
+                        "movementType": "Walk",
+                        "playAtActorLocation": 0,
+                        "playerParams": {
+                          "$type": "questUseWorkspotPlayerParams",
+                          "applyCameraParams": 0,
+                          "cameraSettings": {
+                            "$type": "gameTier3CameraSettings",
+                            "pitchBottomLimit": 45,
+                            "pitchSpeedMultiplier": 1,
+                            "pitchTopLimit": 60,
+                            "yawLeftLimit": 60,
+                            "yawRightLimit": 60,
+                            "yawSpeedMultiplier": 1
+                          },
+                          "cameraUseTrajectorySpace": 1,
+                          "emptyHands": 0,
+                          "parallaxSpace": "Trajectory",
+                          "parallaxWeight": 1,
+                          "tier": "Tier3",
+                          "vehicleProceduralCameraWeight": 1
+                        },
+                        "repeatCommandOnInterrupt": 1,
+                        "teleport": 1,
+                        "workExcludedGestures": [],
+                        "workspotInstanceId": {
+                          "$type": "scnSceneWorkspotInstanceId",
+                          "id": 88778
+                        },
+                        "workspotNode": {
+                          "$type": "NodeRef",
+                          "$storage": "uint64",
+                          "$value": "0"
+                        }
+                      }
+                    },
+                    "sockets": []
+                  }
+                }
+              }
+            }
+          ],
+          "startNodes": [
+            {
+              "$type": "scnNodeId",
+              "id": 1
+            }
+          ]
+        }
+      },
+      "sceneSolutionHash": {
+        "$type": "scnSceneSolutionHash",
+        "sceneSolutionHash": {
+          "$type": "scnSceneSolutionHashHash",
+          "sceneSolutionHashDate": "0"
+        }
+      },
+      "screenplayStore": {
+        "$type": "scnscreenplayStore",
+        "lines": [],
+        "options": [
+          {
+            "$type": "scnscreenplayChoiceOption",
+            "itemId": {
+              "$type": "scnscreenplayItemId",
+              "id": 2
+            },
+            "locstringId": {
+              "$type": "scnlocLocstringId",
+              "ruid": "11610855148082599244"
+            },
+            "usage": {
+              "$type": "scnscreenplayOptionUsage",
+              "playerGenderMask": {
+                "$type": "scnGenderMask",
+                "mask": 3
+              }
+            }
+          }
+        ]
+      },
+      "version": 0,
+      "voInfo": [],
+      "workspotInstances": [
+        {
+          "$type": "scnWorkspotInstance",
+          "dataId": {
+            "$type": "scnSceneWorkspotDataId",
+            "id": 3334421231
+          },
+          "localTransform": {
+            "$type": "Transform",
+            "orientation": {
+              "$type": "Quaternion",
+              "i": 0,
+              "j": 0,
+              "k": 0.5,
+              "r": 0.866025388
+            },
+            "position": {
+              "$type": "Vector4",
+              "W": 0,
+              "X": 0,
+              "Y": 0,
+              "Z": 0
+            }
+          },
+          "originMarker": {
+            "$type": "scnMarker",
+            "entityRef": {
+              "$type": "gameEntityReference",
+              "dynamicEntityUniqueName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "None"
+              },
+              "names": [],
+              "reference": {
+                "$type": "NodeRef",
+                "$storage": "uint64",
+                "$value": "0"
+              },
+              "sceneActorContextName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "None"
+              },
+              "slotName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "None"
+              },
+              "type": "EntityRef"
+            },
+            "isMounted": 1,
+            "localMarkerId": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "None"
+            },
+            "nodeRef": {
+              "$type": "NodeRef",
+              "$storage": "uint64",
+              "$value": "0"
+            },
+            "slotName": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "None"
+            },
+            "type": "Global"
+          },
+          "playAtActorLocation": 0,
+          "workspotInstanceId": {
+            "$type": "scnSceneWorkspotInstanceId",
+            "id": 88777
+          }
+        },
+        {
+          "$type": "scnWorkspotInstance",
+          "dataId": {
+            "$type": "scnSceneWorkspotDataId",
+            "id": 3334421232
+          },
+          "localTransform": {
+            "$type": "Transform",
+            "orientation": {
+              "$type": "Quaternion",
+              "i": 0,
+              "j": 0,
+              "k": 0,
+              "r": 1
+            },
+            "position": {
+              "$type": "Vector4",
+              "W": 0,
+              "X": 0,
+              "Y": 0,
+              "Z": 0
+            }
+          },
+          "originMarker": {
+            "$type": "scnMarker",
+            "entityRef": {
+              "$type": "gameEntityReference",
+              "dynamicEntityUniqueName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "None"
+              },
+              "names": [],
+              "reference": {
+                "$type": "NodeRef",
+                "$storage": "uint64",
+                "$value": "0"
+              },
+              "sceneActorContextName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "None"
+              },
+              "slotName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "None"
+              },
+              "type": "EntityRef"
+            },
+            "isMounted": 1,
+            "localMarkerId": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "None"
+            },
+            "nodeRef": {
+              "$type": "NodeRef",
+              "$storage": "uint64",
+              "$value": "0"
+            },
+            "slotName": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "None"
+            },
+            "type": "Global"
+          },
+          "playAtActorLocation": 1,
+          "workspotInstanceId": {
+            "$type": "scnSceneWorkspotInstanceId",
+            "id": 88778
+          }
+        }
+      ],
+      "workspots": [
+        {
+          "HandleId": "36",
+          "Data": {
+            "$type": "scnWorkspotData_ExternalWorkspotResource",
+            "dataId": {
+              "$type": "scnSceneWorkspotDataId",
+              "id": 3334421231
+            },
+            "workspotResource": {
+              "DepotPath": {
+                "$type": "ResourcePath",
+                "$storage": "string",
+                "$value": "base\\workspots\\common\\bench\\player__sit_bench_lean_back_r_hand_on_back__talk__01.workspot"
+              },
+              "Flags": "Default"
+            }
+          }
+        },
+        {
+          "HandleId": "37",
+          "Data": {
+            "$type": "scnWorkspotData_ExternalWorkspotResource",
+            "dataId": {
+              "$type": "scnSceneWorkspotDataId",
+              "id": 3334421232
+            },
+            "workspotResource": {
+              "DepotPath": {
+                "$type": "ResourcePath",
+                "$storage": "string",
+                "$value": "base\\workspots\\main_characters\\johnny\\johnny__lie_bed_lean_left__lie_around__01.workspot"
+              },
+              "Flags": "Default"
+            }
+          }
+        }
+      ]
+    },
+    "EmbeddedFiles": []
+  }
+}
