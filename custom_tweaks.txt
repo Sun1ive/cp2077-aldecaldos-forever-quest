@@ -3,13 +3,9 @@
 base\assets\ktexture.inkatlas
 Character.cpz_maelstrom_grunt2_ranged2_ajax_wa_2
 Character.cpz_maelstrom_grunt2_ranged2_ajax_wa_3
-Chsaracter.Silverhand
 ep1\gameplay\gui\common\icons\codex\sts_assets_ep1.inkatlas
 Items.mq_kidnap_shard_1
 Items.mq_kidnap_shard_2
 Items.mq_panam_kidnap_shard_1
-Items.sq_hs_regina_shard
-sq_hs_regina_shard
 UIJournalIcons.panam_kidnap_pic_1
 Unconscious
-Vehicle.sq_hs_behemoth
