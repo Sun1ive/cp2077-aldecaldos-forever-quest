@@ -5,8 +5,24 @@ import AldecaldosHighStakes.Widgets.*
 class WidgetService extends ScriptableService {
     private let m_active_widget: ref<BriefPopup>;
 
-    private cb func OnInitialize() {
-        LogChannel(n"DEBUG", "Game instance initialized, can access game systems");
+    private cb func OnLoad() {
+        GameInstance
+            .GetCallbackSystem()
+            .RegisterCallback(n"Session/Ready", this, n"OnSessionReady");
+    }
+
+    private cb func OnSessionReady(event: ref<GameSessionEvent>) {
+        if !event.IsPreGame() {
+            let axlVersion = StringToFloat(ArchiveXL.Version(), 0);
+            FTLog(s"AXL VERSION \(axlVersion)");
+            if axlVersion < 1.17 {
+                FTLog(s"TRUE");
+                SetFactValue(GetGameInstance(), n"sq_hs_axl_outdated", 1);
+            } else {
+                FTLog(s"FALSE");
+                SetFactValue(GetGameInstance(), n"sq_hs_axl_outdated", 0);
+            }
+        }
     }
 
     public func CloseBriefPopup() -> Void {
