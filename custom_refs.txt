@@ -1,3 +1,4 @@
+mod\assets\axl_outdated.bk2
 mod\assets\brief_scene_out.bk2
 mod\assets\high_stakes_preview.bk2
 mod\journal\sq_high_stakes.journal
@@ -61,10 +62,12 @@ mod\quest\sq_high_stakes.questphase
 mod\quest\sq_notjustanotherstory.questphase
 mod\scenes\sq_high_stakes_aldo_ambush.scene
 mod\scenes\sq_high_stakes_aldo_end.scene
+mod\scenes\sq_high_stakes_holo.scene
 mod\scenes\sq_high_stakes_johnny_end_copy.scene
 mod\scenes\sq_high_stakes_johnny_end.scene
 mod\scenes\sq_high_stakes_regina_brief.scene
 mod\scenes\sq_notjustanotherstory_holocall.scene
+mod\scenes\test.scene
 mod\worlds\sectors\sq_high_stakes_aldo_end.streamingsector
 mod\worlds\sectors\sq_high_stakes_community.streamingsector
 mod\worlds\sectors\sq_high_stakes_debug.streamingsector
