@@ -5,6 +5,10 @@ import AldecaldosHighStakes.Widgets.*
 class WidgetService extends ScriptableService {
     private let m_active_widget: ref<BriefPopup>;
 
+    private cb func OnInitialize() {
+        LogChannel(n"DEBUG", "Game instance initialized, can access game systems");
+    }
+
     public func CloseBriefPopup() -> Void {
         if IsDefined(this.m_active_widget) {
             this.m_active_widget.Close();

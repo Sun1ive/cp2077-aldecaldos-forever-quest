@@ -61,6 +61,7 @@ mod\quest\sq_high_stakes.questphase
 mod\quest\sq_notjustanotherstory.questphase
 mod\scenes\sq_high_stakes_aldo_ambush.scene
 mod\scenes\sq_high_stakes_aldo_end.scene
+mod\scenes\sq_high_stakes_johnny_end_copy.scene
 mod\scenes\sq_high_stakes_johnny_end.scene
 mod\scenes\sq_high_stakes_regina_brief.scene
 mod\scenes\sq_notjustanotherstory_holocall.scene
