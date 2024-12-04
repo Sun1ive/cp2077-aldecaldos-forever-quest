@@ -1,11 +1,6 @@
-#panam_sunset_spot_prefab
-50
-base\assets\ktexture.inkatlas
-Character.cpz_maelstrom_grunt2_ranged2_ajax_wa_2
-Character.cpz_maelstrom_grunt2_ranged2_ajax_wa_3
-ep1\gameplay\gui\common\icons\codex\sts_assets_ep1.inkatlas
-Items.mq_kidnap_shard_1
-Items.mq_kidnap_shard_2
-Items.mq_panam_kidnap_shard_1
-UIJournalIcons.panam_kidnap_pic_1
-Unconscious
+Character.River
+DynamicSpawnSystem.my_test_ent
+DynamicSpawnSystem.njas_drone_light
+DynamicSpawnSystem.njas_drone_medium
+LootTables.empty
+QuestRewards.my_test_reward
