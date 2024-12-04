@@ -4,6 +4,7 @@ mod\journal\sq_high_stakes.journal
 mod\journal\sq_notjustanotherstory.journal
 mod\localization\anims\johnny.anims
 mod\localization\anims\panam.anims
+mod\localization\anims\regina_reggie_jones.anims
 mod\localization\ar-ar\sq_high_stakes.lipmap
 mod\localization\cz-cz\sq_high_stakes.lipmap
 mod\localization\de-de\sq_high_stakes.lipmap
