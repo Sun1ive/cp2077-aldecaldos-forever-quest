@@ -2,5 +2,7 @@ Character.River
 DynamicSpawnSystem.my_test_ent
 DynamicSpawnSystem.njas_drone_light
 DynamicSpawnSystem.njas_drone_medium
+Items.sq_hs_regina_shard
 LootTables.empty
 QuestRewards.my_test_reward
+Vehicle.sq_hs_behemoth

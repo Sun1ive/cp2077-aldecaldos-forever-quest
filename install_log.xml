@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<InstalLog Project="Aldecaldos Forever" Build_date="04.12.2024 21:30:12">
+<InstalLog Project="Aldecaldos Forever" Build_date="04.01.2025 10:47:40">
   <Files>
     <Directory Path="G:\SteamLibrary\steamapps\common\Cyberpunk 2077\archive">
       <Directory Path="G:\SteamLibrary\steamapps\common\Cyberpunk 2077\archive\pc">
@@ -13,6 +13,7 @@
       <Directory Path="G:\SteamLibrary\steamapps\common\Cyberpunk 2077\r6\scripts">
         <Directory Path="G:\SteamLibrary\steamapps\common\Cyberpunk 2077\r6\scripts\AldecaldosHighStakes">
           <file>G:\SteamLibrary\steamapps\common\Cyberpunk 2077\r6\scripts\AldecaldosHighStakes\Main.reds</file>
+          <file>G:\SteamLibrary\steamapps\common\Cyberpunk 2077\r6\scripts\AldecaldosHighStakes\Vehicle.reds</file>
           <file>G:\SteamLibrary\steamapps\common\Cyberpunk 2077\r6\scripts\AldecaldosHighStakes\Widgets.reds</file>
           <Directory Path="G:\SteamLibrary\steamapps\common\Cyberpunk 2077\r6\scripts\AldecaldosHighStakes\Localization">
             <file>G:\SteamLibrary\steamapps\common\Cyberpunk 2077\r6\scripts\AldecaldosHighStakes\Localization\LocalizationProvider.reds</file>
