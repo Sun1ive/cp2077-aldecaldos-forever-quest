@@ -1,3 +1,4 @@
+hq\sectors\hs.streamingsector
 mod\assets\axl_outdated.bk2
 mod\assets\brief_scene_out.bk2
 mod\assets\high_stakes_preview.bk2
@@ -71,6 +72,7 @@ mod\scenes\test.scene
 mod\worlds\sectors\sq_high_stakes_aldo_end.streamingsector
 mod\worlds\sectors\sq_high_stakes_community.streamingsector
 mod\worlds\sectors\sq_high_stakes_debug.streamingsector
+mod\worlds\sectors\sq_high_stakes_garage.streamingsector
 mod\worlds\sectors\sq_high_stakes.streamingsector
 mod\worlds\sq_high_stakes.streamingblock
 mod\worlds\sq_notanotherstory_community.streamingsector

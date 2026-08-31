@@ -4,6 +4,7 @@ import Codeware.Localization.*
 
 public class English extends ModLocalizationPackage {
     protected func DefineTexts() {
-        this.Text("SQ-HS-Brief-Title", "Encrypted transmission");
+        this.Text("SQ-HS-Brief-Title", "Encrypted Transmission");
+        this.Text("(CCXS-COMPRESSED)", "(CCXS-COMPRESSED)");
     }
 }

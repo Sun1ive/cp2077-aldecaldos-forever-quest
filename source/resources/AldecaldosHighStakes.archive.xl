@@ -5,10 +5,6 @@ streaming:
     - mod\worlds\sq_high_stakes.streamingblock
 quest:
   phases:
-    # - path: mod\quest\sq_high_stakes.questphase
-    #   parent: base\quest\minor_quests\mq000\mq000.questphase
-    #   connection: [13, 103, 2]
-    # Vanilla
     - path: mod\quest\sq_high_stakes.questphase
       parent: base\quest\cyberpunk2077.quest
     - path: mod\quest\sq_high_stakes.questphase

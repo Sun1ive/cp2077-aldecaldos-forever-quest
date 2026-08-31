@@ -81,8 +81,8 @@ protected cb func OnAldecaldosHighStakesVOEvent(event: ref<ActionEvent>) -> Void
 
 @wrapMethod(ShardCaseContainer)
 protected cb func OnInteraction(choiceEvent: ref<InteractionChoiceEvent>) -> Bool {
-    let currentReadedShardTweakID = this.itemTDBID;
-    if Equals(currentReadedShardTweakID, t"Items.sq_hs_regina_shard") {
+    let currentReadShardTweakID = this.itemTDBID;
+    if Equals(currentReadShardTweakID, t"Items.sq_hs_regina_shard") {
         SetFactValue(this.GetGame(), n"sq_high_stakes_regina_shard_read", 1);
     }
     let result: Bool = wrappedMethod(choiceEvent);
